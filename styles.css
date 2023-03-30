@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+  background-image: url("https://t3.ftcdn.net/jpg/03/91/46/10/360_F_391461057_5P0BOWl4lY442Zoo9rzEeJU0S2c1WDZR.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: linear-gradient(45deg, #6465a3);
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-weight: normal;
+  margin-top: 60px;
+  font-size: xx-large;
+  color: white;
+}
+p {
+  margin: 20px;
+  font-size: large;
+  color: white;
+}
+#survey-form {
+  color: white;
+  font-size: 20px;
+  padding: 40px;
+  background-color: rgba(6, 33, 54, 0.5);
+  text-align: left;
+  margin: 0 20%;
+  border-radius: 3px;
+}
+#name,
+#email,
+#number,
+#dropdown,
+#submit,
+#comments {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}

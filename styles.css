@@ -20,7 +20,7 @@ p {
 #survey-form {
   color: white;
   font-size: 20px;
-  padding: 40px;
+  padding: 10px 40px;
   background-color: rgba(6, 33, 54, 0.5);
   text-align: left;
   margin: 0 20%;
@@ -29,9 +29,14 @@ p {
 #name,
 #email,
 #number,
-#dropdown,
-#submit,
 #comments {
+  width: 97%;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+#dropdown,
+#submit {
   width: 100%;
   padding: 10px;
   border-radius: 6px;
